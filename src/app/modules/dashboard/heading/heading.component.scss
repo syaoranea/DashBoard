@@ -1,0 +1,42 @@
+.app {
+    width: 1800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.nav-content {
+    width: 80%;
+    height: 8vh;
+    background: linear-gradient(149deg, rgba(75, 0, 101, 1) 0%, rgba(23, 0, 46, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    .nav-icons {
+        display: flex;
+
+        .icon {
+            color: #fff;
+            font-size: 38px;
+            margin-right: 42px;
+            margin-bottom: 12px;
+        }
+    }
+
+    .nav-avatar {
+        width: 10%;
+        display: flex;
+        color: #fff;
+        justify-content: end;
+        margin-right: 50px;
+
+        .icon {
+            color: #fff;
+            font-size: 52px;
+        }
+
+        p {
+            margin-right: 16px;
+        }
+    }
+}
