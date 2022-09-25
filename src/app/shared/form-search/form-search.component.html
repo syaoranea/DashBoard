@@ -1,0 +1,4 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <input placeholder="     Search" formControlName="message" class="form-control" name="search" />
+    <button class="btn-search" (submit)="onSubmit()"><mat-icon aria-hidden="false" aria-label="Example home icon" class="icon" fontIcon="home">search</mat-icon></button>
+</form>

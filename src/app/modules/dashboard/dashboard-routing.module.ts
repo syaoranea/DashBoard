@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { UIRouterModule } from '@uirouter/angular';
-import { STATES } from './landing-page.states';
+import { STATES } from './dashboard.states';
 
 @NgModule({
   imports: [
