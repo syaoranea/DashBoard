@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Mensagens } from '../utils/mensagens.enum'
 @Component({
   selector: 'app-heading',
   templateUrl: './heading.component.html',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeadingComponent implements OnInit {
 
+   mensg: string = '';
   constructor() { }
 
   ngOnInit(): void {
+    //this.findMensagens('error');
   }
+
+/*   findMensagens(mensagens: string){
+    this.mensg = Mensagens[mensagens];
+    return this.mensg;
+  } */
 
 }
