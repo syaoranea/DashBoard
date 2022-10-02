@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Mensagens } from '../utils/mensagens.enum'
 @Component({
   selector: 'app-heading',
   templateUrl: './heading.component.html',

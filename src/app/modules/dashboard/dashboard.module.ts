@@ -4,7 +4,8 @@ import { DashboardComponent } from './views/dashboard.component';
 import { HeadingComponent } from './heading/heading.component';
 import { MenuComponent } from './menu/menu.component';
 import { MatIconModule } from '@angular/material/icon';
-import { SharedModule } from 'src/app/shared/shared.module';
+import { PagesComponent } from './pages/pages.component';
+import { SharedModule } from '../../shared/shared.module';
 
 
 
@@ -13,6 +14,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
     DashboardComponent,
     HeadingComponent,
     MenuComponent,
+    PagesComponent,
   ],
   imports: [
     CommonModule,

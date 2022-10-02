@@ -1,6 +1,10 @@
 nav{
     background: linear-gradient(149deg, rgba(31, 0, 58, 1) 0%, rgba(16, 0, 33, 1) 100%);
     height: 92vh;
+    width: 15vw;
+    .nav-bar{
+        height: 8vh;
+    }
     .menu{
         li{
             width: 100%;

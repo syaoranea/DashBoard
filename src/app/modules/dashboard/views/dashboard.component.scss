@@ -1,6 +1,10 @@
 .dashboard{
-    width: 1200px;
+    width: 100vw;
     display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+}
+
+main {
+    background: rgb(75, 0, 101);
+    background: linear-gradient(160deg, rgba(75, 0, 101, 1) 0%, rgba(14, 0, 23, 1) 100%);
+    width: 80%;;
 }
