@@ -1,10 +1,12 @@
 .dashboard{
     width: 100vw;
     display: flex;
+    height: 100vh;
 }
 
 main {
     background: rgb(75, 0, 101);
     background: linear-gradient(160deg, rgba(75, 0, 101, 1) 0%, rgba(14, 0, 23, 1) 100%);
-    width: 85vw
+    width: 85vw;
+    height: 90vh;
 }

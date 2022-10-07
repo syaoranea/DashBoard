@@ -1,8 +1,47 @@
 .card{
     background: #1a0030;
-    padding: 16px;
-    width: 200px;
+    padding: 1.5rem;
+    width: 100%;
     margin-right: 16px;
-    color: #c7bfce
+    color: #938c99;
+    .card-img{
+        width: 75%;
+        height: 55%;
+        padding-left: 3rem;
+    }
+    .card-img-reta{
+        width: 100%;
+    }
+    .title, .title-two, .title-red{
+        color: #01ffff;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 1rem;
+    }
+    p{
+        margin-top: 1rem;
+    }
+    .title-two{
+        color: #c4c000;
+        justify-content: start;
+    }
+    span {
+        margin-top: 2rem;
+        color: rgb(77, 74, 74);
+    }
+    .sub-title{
+        font-size: 3rem;
+    }
+    .title-red{
+        color: rgb(158, 0, 0);
+        justify-content: start;
+    }
+    .card-four{
+            margin-bottom: 0.5rem;
+    }
+    
 }
 
